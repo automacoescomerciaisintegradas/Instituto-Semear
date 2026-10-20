@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 690" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="137" y1="20" x2="1033" y2="690" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C5B897"/>
+      <stop offset=".48" stop-color="#77816A"/>
+      <stop offset="1" stop-color="#3D5345"/>
+    </linearGradient>
+    <linearGradient id="basket" x1="418" y1="330" x2="789" y2="596" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#BE9062"/>
+      <stop offset="1" stop-color="#72533B"/>
+    </linearGradient>
+    <linearGradient id="cloth" x1="447" y1="394" x2="751" y2="458" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EEE2C7"/>
+      <stop offset="1" stop-color="#C6B899"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0" cy="0" r="1" gradientTransform="matrix(0 295 -380 0 900 170)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5DDB4" stop-opacity=".65"/>
+      <stop offset="1" stop-color="#F5DDB4" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur" x="0" y="0" width="1200" height="690" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="38"/>
+    </filter>
+    <pattern id="grain" width="83" height="83" patternUnits="userSpaceOnUse">
+      <circle cx="13" cy="18" r="1" fill="#fff" fill-opacity=".18"/>
+      <circle cx="54" cy="42" r=".8" fill="#18271D" fill-opacity=".2"/>
+      <circle cx="32" cy="70" r="1" fill="#fff" fill-opacity=".1"/>
+      <circle cx="77" cy="12" r=".8" fill="#18271D" fill-opacity=".16"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="690" fill="url(#bg)"/>
+  <ellipse cx="900" cy="171" rx="380" ry="295" fill="url(#sun)"/>
+  <path d="M0 471c168-84 319-104 480-69 172 38 287 33 436-42 104-52 190-60 284-30v360H0V471Z" fill="#53664F"/>
+  <path d="M0 541c207-81 363-73 529-35 152 35 300 30 441-25 89-35 160-37 230-17v226H0V541Z" fill="#354D3D"/>
+  <path d="M0 616c183-59 360-63 535-30 204 38 444 23 665-41v145H0v-74Z" fill="#293F34"/>
+  <path d="M137 531c84-51 171-82 267-93m-218 134c112-70 217-104 341-110m-185 88c105-54 208-77 314-78" stroke="#D3C39F" stroke-opacity=".42" stroke-width="2"/>
+  <path d="M947 510c68-61 135-93 211-108m-180 146c67-49 134-73 222-78" stroke="#C6BE99" stroke-opacity=".35" stroke-width="2"/>
+  <ellipse cx="600" cy="568" rx="260" ry="49" fill="#18291E" fill-opacity=".38" filter="url(#blur)"/>
+  <path d="M408 383c0-92 82-165 192-165s192 73 192 165" stroke="#554532" stroke-width="19" stroke-linecap="round"/>
+  <path d="M425 383c0-82 74-148 175-148s175 66 175 148" stroke="#D2B98E" stroke-width="9" stroke-linecap="round"/>
+  <path d="M415 372c13 95 32 174 54 224h262c22-50 41-129 54-224H415Z" fill="url(#basket)"/>
+  <path d="M415 372c13 95 32 174 54 224h262c22-50 41-129 54-224H415Z" stroke="#E0C394" stroke-opacity=".6" stroke-width="4"/>
+  <path d="M428 432h347m-329 54h312m-296 55h279" stroke="#E4C89B" stroke-opacity=".65" stroke-width="8"/>
+  <path d="M463 386c42 22 80 27 130 19 61-10 112-2 169 21l-7 49c-72-27-127-35-191-20-49 11-94 4-122-13l21-56Z" fill="url(#cloth)"/>
+  <path d="M459 399c41 22 80 28 132 19 62-10 113-3 170 21" stroke="#A6977B" stroke-opacity=".6" stroke-width="3"/>
+  <path d="M486 376c-2-46 13-91 44-132 18 47 16 87-4 132m95 3c-12-54-5-102 21-149 23 46 27 91 12 137m62 14c6-44 28-83 67-117 1 47-12 85-43 116" fill="#7F8C69"/>
+  <path d="M529 360c-25-41-34-83-26-132 34 36 51 77 46 122m120 5c22-51 55-83 100-102-13 48-40 84-79 108" fill="#98A07A"/>
+  <path d="M507 365c-28-26-57-40-90-41 17 34 43 56 79 66m169-34c31-23 63-34 99-30-20 33-49 53-88 59" stroke="#D7CB9E" stroke-width="3" stroke-linecap="round"/>
+  <path d="M476 358c-34-13-70-16-109-6 30 27 63 39 99 37m269-42c35-11 71-10 108 2-31 24-66 33-104 27" fill="#A76E4B"/>
+  <path d="M483 365c-27-21-58-32-92-31m338 18c30-19 61-27 98-23" stroke="#E0B77C" stroke-width="3" stroke-linecap="round"/>
+  <path d="M144 155v35m-17-18h35M1030 101v25m-12-13h25M289 284v22m-11-11h22" stroke="#F2DAB4" stroke-opacity=".75" stroke-width="2" stroke-linecap="round"/>
+  <rect width="1200" height="690" fill="url(#grain)"/>
+</svg>

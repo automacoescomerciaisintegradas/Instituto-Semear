@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" fill="none">
+  <defs>
+    <linearGradient id="wall" x1="30" y1="45" x2="744" y2="458" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E79B5B"/>
+      <stop offset=".52" stop-color="#D47A43"/>
+      <stop offset="1" stop-color="#B96A43"/>
+    </linearGradient>
+    <linearGradient id="coat" x1="337" y1="181" x2="565" y2="480" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8C9690"/>
+      <stop offset="1" stop-color="#414D4B"/>
+    </linearGradient>
+    <pattern id="grain" width="71" height="71" patternUnits="userSpaceOnUse">
+      <circle cx="9" cy="14" r="1" fill="#402B20" fill-opacity=".14"/>
+      <circle cx="50" cy="37" r=".8" fill="#fff" fill-opacity=".18"/>
+      <circle cx="28" cy="63" r="1" fill="#402B20" fill-opacity=".12"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="480" fill="url(#wall)"/>
+  <path d="M0 0h147v480H0z" fill="#F0AE6F" fill-opacity=".25"/>
+  <path d="M622 0h178v480H622z" fill="#874E3B" fill-opacity=".2"/>
+  <path d="M126 0v480m22-480v480" stroke="#FFE0B2" stroke-opacity=".18" stroke-width="2"/>
+  <ellipse cx="442" cy="156" rx="91" ry="108" fill="#D8A783"/>
+  <path d="M352 152c-12-89 29-140 102-140 79 0 111 54 91 151-22-41-43-61-81-72-30 38-65 55-112 61Z" fill="#534438"/>
+  <path d="M288 480c5-139 49-224 151-243 104 24 157 100 167 243H288Z" fill="url(#coat)"/>
+  <path d="m385 236 55 100 59-101 30 21-53 224H404l-50-224 31-20Z" fill="#E4DDD0"/>
+  <path d="m437 337 35 25-29 118h-24l-27-118 45-25Z" fill="#A75D3E"/>
+  <path d="M208 480V0m17 480V0" stroke="#F5D5AE" stroke-opacity=".12" stroke-width="2"/>
+  <path d="M0 432c91-34 162-49 229-46" stroke="#F3C79C" stroke-opacity=".28" stroke-width="2"/>
+  <circle cx="678" cy="97" r="39" stroke="#F4D9B5" stroke-opacity=".52"/>
+  <path d="M678 76v42m-21-21h42" stroke="#F4D9B5" stroke-opacity=".52" stroke-width="2"/>
+  <rect width="800" height="480" fill="url(#grain)"/>
+</svg>
