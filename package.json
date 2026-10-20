@@ -8,6 +8,7 @@
     "dev:worker": "wrangler dev",
     "build": "node scripts/build.js",
     "preview": "vite preview",
+    "deploy": "wrangler deploy",
     "deploy:worker": "wrangler deploy"
   },
   "devDependencies": {
